@@ -1,0 +1,23 @@
+
+{
+  "title": "Preguntas Frecuentes",
+  "subtitle": "Resolviendo tus dudas para que des el primer paso con confianza.",
+  "items": [
+    {
+      "question": "¿Necesito tener experiencia en arte para la arteterapia?",
+      "answer": "No, en absoluto. La arteterapia no se enfoca en el resultado estético, sino en el proceso creativo y lo que este te permite expresar y descubrir. No se requiere ninguna habilidad artística previa."
+    },
+    {
+      "question": "¿Cómo es la primera sesión?",
+      "answer": "La primera sesión es una conversación para conocernos. Hablaremos sobre lo que te trae a terapia, tus expectativas y cómo podemos trabajar juntos. Es un espacio para que te sientas cómodo y resuelvas cualquier duda."
+    },
+    {
+      "question": "¿Cuál es la duración y frecuencia de las sesiones?",
+      "answer": "Las sesiones individuales suelen durar 50 minutos y la frecuencia más común es semanal. Sin embargo, esto es flexible y lo adaptaremos a tus necesidades y al proceso terapéutico."
+    },
+    {
+      "question": "¿Ofreces terapia online?",
+      "answer": "Sí, ofrezco sesiones tanto presenciales en mi consultorio en Bogotá como en modalidad online para tu comodidad y seguridad."
+    }
+  ]
+}

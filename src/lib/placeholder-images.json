@@ -1,3 +1,58 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A serene, well-lit room with comfortable seating, plants, and art supplies on a table, suggesting a calm and creative therapeutic space.",
+      "imageUrl": "https://images.unsplash.com/photo-1709480484473-eedd4dbcbdb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8c2VyZW5lJTIwdGhlcmFweSUyMHJvb218ZW58MHx8fHwxNzU5MjY4NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "serene therapy room"
+    },
+    {
+      "id": "about-psychologist",
+      "description": "A professional and warm portrait of a female psychologist in her office.",
+      "imageUrl": "https://images.unsplash.com/photo-1712174766230-cb7304feaafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwc3ljaG9sb2dpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyNjg0ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "professional psychologist portrait"
+    },
+    {
+      "id": "service-art-therapy",
+      "description": "Close-up of hands painting with watercolors on a piece of paper.",
+      "imageUrl": "https://images.unsplash.com/photo-1598623686937-c87448b8d339?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxoYW5kcyUyMHBhaW50aW5nfGVufDB8fHx8MTc1OTI2ODQ4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hands painting"
+    },
+    {
+      "id": "service-individual-therapy",
+      "description": "Two people sitting opposite each other in a calm, conversational setting.",
+      "imageUrl": "https://images.unsplash.com/photo-1604881991664-593b31b88488?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx0aGVyYXB5JTIwc2Vzc2lvbnxlbnwwfHx8fDE3NTkyMTEwNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "therapy session"
+    },
+    {
+      "id": "service-group-workshop",
+      "description": "A small group of people sitting in a circle, engaged in a creative activity.",
+      "imageUrl": "https://images.unsplash.com/photo-1757085242652-f8cd4d3de889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncm91cCUyMHdvcmtzaG9wfGVufDB8fHx8MTc1OTI2ODQ4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group workshop"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "A placeholder avatar for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1599566147214-ce487862ea4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MjY4NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "A placeholder avatar for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1599566147214-ce487862ea4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MjY4NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "A placeholder avatar for a testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwZXJzb24lMjBhdmF0YXJ8ZW58MHx8fHwxNzU5MjY4NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person avatar"
+    },
+    {
+      "id": "og-image",
+      "description": "Open Graph image for social media sharing.",
+      "imageUrl": "https://images.unsplash.com/photo-1523370103628-0f939fe785d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzZXJlbmUlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzU5MjU0NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "serene landscape"
+    }
+  ]
 }

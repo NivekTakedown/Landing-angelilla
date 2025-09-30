@@ -1,0 +1,28 @@
+
+{
+  "title": "Lo que dicen mis pacientes",
+  "subtitle": "Historias de transformación y crecimiento.",
+  "items": [
+    {
+      "name": "A.G.",
+      "role": "Paciente de Terapia Individual",
+      "quote": "Isabela me brindó herramientas que nunca imaginé. La arteterapia me ayudó a expresar lo que no podía decir con palabras. Fue un antes y un después en mi vida.",
+      "rating": 5,
+      "avatar": "testimonial-1"
+    },
+    {
+      "name": "M.P.",
+      "role": "Participante de Taller",
+      "quote": "El ambiente que crea Isabela es mágico. Me sentí segura y acompañada para explorar mi creatividad. Descubrí una nueva forma de lidiar con mi ansiedad.",
+      "rating": 5,
+      "avatar": "testimonial-2"
+    },
+    {
+      "name": "J.C.",
+      "role": "Paciente de Terapia con Arte",
+      "quote": "Nunca pensé que dibujar pudiera ser tan sanador. Cada sesión era un descubrimiento. Recomiendo totalmente a Isabela, es una profesional increíblemente cálida.",
+      "rating": 5,
+      "avatar": "testimonial-3"
+    }
+  ]
+}

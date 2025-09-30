@@ -1,0 +1,26 @@
+
+{
+  "title": "Da el Primer Paso",
+  "subtitle": "Estoy aquí para escucharte. Contáctame para agendar tu primera sesión y comenzar tu viaje de sanación.",
+  "email": "hola@isabelarojaspsicologa.com",
+  "phone": "+57 300 123 4567",
+  "address": {
+    "street": "Cra 7 #71-21, Torre B, Consultorio 505",
+    "city": "Bogotá, Colombia"
+  },
+  "hours": "Lunes a Viernes: 9am - 6pm",
+  "socials": [
+    { "name": "Instagram", "href": "#" },
+    { "name": "Facebook", "href": "#" },
+    { "name": "LinkedIn", "href": "#" }
+  ],
+  "form": {
+    "endpoint_url": "",
+    "name_label": "Nombre",
+    "email_label": "Correo Electrónico",
+    "message_label": "Mensaje",
+    "button_text": "Enviar Mensaje",
+    "success_message": "¡Gracias por tu mensaje! Te contactaré pronto.",
+    "error_message": "Hubo un error al enviar tu mensaje. Intenta de nuevo."
+  }
+}

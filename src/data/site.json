@@ -1,0 +1,28 @@
+
+{
+  "name": "Mente Serena",
+  "tagline": "Arteterapia y Paz Mental",
+  "url": "https://tudominio.com",
+  "language": "es-CO",
+  "professional": {
+    "name": "Dra. Isabela Rojas",
+    "title": "Psicóloga Clínica y Arteterapeuta",
+    "registrationNumber": "123456",
+    "registrationOrg": "Colpsic"
+  },
+  "seo": {
+    "homepage": {
+      "title": "Psicóloga y Arteterapia en Bogotá | Mente Serena",
+      "description": "Encuentra paz mental y sanación a través de la arteterapia. Terapia individual y talleres con la psicóloga Isabela Rojas. Transforma tu vida con creatividad.",
+      "keywords": ["psicóloga", "arteterapia", "Bogotá", "terapia individual", "paz mental", "bienestar emocional", "Isabela Rojas"],
+      "ogImage": "/og-image.jpg"
+    }
+  },
+  "navigation": [
+    { "name": "Sobre mí", "href": "#about" },
+    { "name": "Servicios", "href": "#services" },
+    { "name": "Testimonios", "href": "#testimonials" },
+    { "name": "FAQ", "href": "#faq" },
+    { "name": "Contacto", "href": "#contact" }
+  ]
+}

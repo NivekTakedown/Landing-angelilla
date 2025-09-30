@@ -1,0 +1,13 @@
+
+{
+  "copyright": "© {year} Mente Serena. Todos los derechos reservados.",
+  "professionalInfo": "Isabela Rojas | Psicóloga Clínica y Arteterapeuta | Reg. Colpsic {number}",
+  "quickLinks": {
+    "title": "Enlaces",
+    "links": [
+      { "name": "Servicios", "href": "#services" },
+      { "name": "Testimonios", "href": "#testimonials" },
+      { "name": "Contacto", "href": "#contact" }
+    ]
+  }
+}

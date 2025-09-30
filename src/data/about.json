@@ -1,0 +1,15 @@
+
+{
+  "title": "Hola, soy Isabela Rojas",
+  "subtitle": "Tu guía en el camino hacia el bienestar emocional.",
+  "paragraphs": [
+    "Como psicóloga clínica apasionada por el poder transformador de la creatividad, mi misión es ofrecerte un espacio de confianza y empatía donde puedas explorar tu mundo interior. Creo firmemente que cada persona posee los recursos para sanar y crecer, y el arte es una herramienta maravillosa para desbloquear ese potencial.",
+    "Mi enfoque integra técnicas de psicoterapia convencional con la libertad expresiva de la arteterapia. Juntos, crearemos un camino personalizado que no solo aborde tus desafíos, sino que también te conecte con tu capacidad innata de crear, sentir y vivir plenamente."
+  ],
+  "image": "about-psychologist",
+  "stats": [
+    { "value": "10+", "label": "Años de Experiencia" },
+    { "value": "500+", "label": "Vidas Transformadas" },
+    { "value": "Arte", "label": "Como Terapia" }
+  ]
+}

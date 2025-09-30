@@ -1,0 +1,22 @@
+
+{
+  "title": "Servicios para tu Bienestar",
+  "subtitle": "Enfoques terapéuticos diseñados para acompañarte en tu proceso personal.",
+  "items": [
+    {
+      "icon": "Palette",
+      "title": "Terapia con Arte",
+      "description": "Utiliza la pintura, el dibujo y otras formas de arte para expresar emociones, reducir el estrés y fomentar el autoconocimiento en un entorno sin juicios."
+    },
+    {
+      "icon": "User",
+      "title": "Terapia Individual",
+      "description": "Un espacio confidencial y personalizado para abordar ansiedades, duelos, transiciones de vida y desarrollo personal a tu propio ritmo."
+    },
+    {
+      "icon": "Users",
+      "title": "Talleres Grupales",
+      "description": "Únete a talleres temáticos donde podrás compartir experiencias y crecer en comunidad, explorando la creatividad y la conexión humana."
+    }
+  ]
+}
