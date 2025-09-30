@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import { useFormState, useFormStatus } from 'react-dom';
+import { useState, useActionState } from 'react';
+import { useFormStatus } from 'react-dom';
 import { getAltTextSuggestion } from './actions';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Loader2, Lightbulb, Copy } from 'lucide-react';
-import { useToast } from '@/components/ui/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 function SubmitButton() {
   const { pending } = useFormStatus();
@@ -22,7 +22,7 @@ function SubmitButton() {
 }
 
 export default function SeoHelperPage() {
-  const [state, formAction] = useFormState(getAltTextSuggestion, {});
+  const [state, formAction] = useActionState(getAltTextSuggestion, {});
   const [preview, setPreview] = useState<string | null>(null);
   const [imageData, setImageData] = useState<string>('');
   const { toast } = useToast();
