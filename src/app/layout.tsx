@@ -7,6 +7,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const siteData = await getSiteData();
 
   return {
+    metadataBase: new URL(siteData.url),
     title: {
       default: `${siteData.name} | ${siteData.tagline}`,
       template: `%s | ${siteData.name}`,
@@ -34,7 +35,17 @@ export async function generateMetadata(): Promise<Metadata> {
       description: siteData.seo.homepage.description,
       images: [`${siteData.url}${siteData.seo.homepage.ogImage}`],
     },
-    metadataBase: new URL(siteData.url),
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
   };
 }
 
@@ -50,6 +61,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
