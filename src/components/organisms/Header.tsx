@@ -58,9 +58,9 @@ export function Header({ navItems, cta }: HeaderProps) {
       )}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex h-20 items-center justify-between">
+        <div className="flex h-20 items-center justify-between gap-4">
           <Link href="/" className="flex-shrink-0" aria-label="Página de inicio">
-            <Logo />
+            <Logo className="w-32 h-auto" />
           </Link>
           <nav className="hidden md:flex md:items-center md:gap-8">
             {navItems.map((item) => (
@@ -81,7 +81,7 @@ export function Header({ navItems, cta }: HeaderProps) {
               ref={openButtonRef}
               variant="ghost"
               size="icon"
-              className="md:hidden"
+              className="md:hidden flex-shrink-0"
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Abrir menú"
               aria-expanded={isOpen}
@@ -108,7 +108,7 @@ export function Header({ navItems, cta }: HeaderProps) {
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 flex h-20 items-center justify-between">
             <Link href="/" onClick={handleLinkClick}>
-                <Logo />
+                <Logo className="w-32 h-auto" />
             </Link>
             <Button variant="ghost" size="icon" onClick={closeMenu} aria-label="Cerrar menú">
                 <X className="h-6 w-6" />

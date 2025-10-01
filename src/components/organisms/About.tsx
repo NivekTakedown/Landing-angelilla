@@ -32,7 +32,7 @@ export async function About() {
                 <p key={i}>{p}</p>
               ))}
             </div>
-            <div className="mt-10 grid grid-cols-3 gap-4 text-center">
+            <div className="mt-10 grid grid-cols-2 gap-4 text-center sm:grid-cols-3">
               {aboutData.stats.map((stat) => (
                 <div key={stat.label} className="p-4 rounded-lg bg-background shadow-sm border">
                   <p className="text-3xl font-bold font-headline text-primary">{stat.value}</p>

@@ -5,8 +5,6 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 28"
-      width="120"
-      height="34"
       aria-label="Mente Serena Logo"
       {...props}
     >
