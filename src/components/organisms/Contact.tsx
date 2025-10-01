@@ -19,8 +19,8 @@ export async function Contact() {
           </p>
         </div>
         <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16">
-          <div className="space-y-8">
-            <Card>
+          <div className="space-y-8 md:grid md:grid-cols-2 md:gap-8 md:space-y-0 lg:block lg:space-y-8">
+            <Card className="md:col-span-1">
               <CardContent className="p-6">
                 <h3 className="font-headline text-2xl font-semibold">Información de Contacto</h3>
                 <ul className="mt-6 space-y-4 text-muted-foreground">
