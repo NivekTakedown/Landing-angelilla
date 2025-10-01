@@ -39,6 +39,7 @@ export function Testimonials({ title, subtitle, items, images }: TestimonialsPro
             loop: true,
           }}
           className="mx-auto mt-16 w-full max-w-4xl"
+          aria-label="Carrusel de testimonios"
         >
           <CarouselContent>
             {items.map((testimonial, index) => {
@@ -78,8 +79,8 @@ export function Testimonials({ title, subtitle, items, images }: TestimonialsPro
               );
             })}
           </CarouselContent>
-          <CarouselPrevious className="hidden sm:flex"/>
-          <CarouselNext className="hidden sm:flex"/>
+          <CarouselPrevious className="hidden sm:flex" aria-label="Testimonio anterior" />
+          <CarouselNext className="hidden sm:flex" aria-label="Siguiente testimonio" />
         </Carousel>
       </div>
     </section>

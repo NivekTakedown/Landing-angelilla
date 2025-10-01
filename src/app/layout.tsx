@@ -1,12 +1,28 @@
 import type { Metadata, Viewport } from 'next';
+import { Playfair_Display, PT_Sans } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { getSiteData } from '@/lib/data';
+import { cn } from '@/lib/utils';
+
+const playfairDisplay = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-headline',
+  display: 'swap',
+});
+
+const ptSans = PT_Sans({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-body',
+  display: 'swap',
+});
 
 export async function generateMetadata(): Promise<Metadata> {
   const siteData = await getSiteData();
 
   return {
+    metadataBase: new URL(siteData.url),
     title: {
       default: `${siteData.name} | ${siteData.tagline}`,
       template: `%s | ${siteData.name}`,
@@ -34,7 +50,17 @@ export async function generateMetadata(): Promise<Metadata> {
       description: siteData.seo.homepage.description,
       images: [`${siteData.url}${siteData.seo.homepage.ogImage}`],
     },
-    metadataBase: new URL(siteData.url),
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
   };
 }
 
@@ -48,11 +74,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" className={cn(playfairDisplay.variable, ptSans.variable)}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests; default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://images.unsplash.com https://picsum.photos; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-src 'self' https://www.google.com;" />
       </head>
       <body className="font-body antialiased">
         {children}
