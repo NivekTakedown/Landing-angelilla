@@ -1,3 +1,4 @@
+
 import React, { Suspense } from 'react';
 import { Header } from '@/components/organisms/Header';
 import { Hero } from '@/components/organisms/Hero';
@@ -31,7 +32,7 @@ export default async function Home() {
 
 
   return (
-    <div className="flex flex-col min-h-screen bg-background">
+    <div className="flex flex-col min-h-screen bg-background overflow-x-hidden">
       <Header navItems={siteData.navigation} cta={{ text: 'Agendar Sesión', href: '#contact'}}/>
       <main className="flex-grow">
         <Hero />
