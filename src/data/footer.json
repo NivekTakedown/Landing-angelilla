@@ -1,13 +1,12 @@
-
 {
-  "copyright": "© {year} Mente Serena. Todos los derechos reservados.",
-  "professionalInfo": "Isabela Rojas | Psicóloga Clínica y Arteterapeuta | Reg. Colpsic {number}",
-  "quickLinks": {
-    "title": "Enlaces",
-    "links": [
-      { "name": "Servicios", "href": "#services" },
-      { "name": "Testimonios", "href": "#testimonials" },
-      { "name": "Contacto", "href": "#contact" }
-    ]
-  }
+  "brandName": "Ángela Milena Ramos",
+  "tagline": "Psicóloga - Enfoque Humanista",
+  "copyrightText": "© 2025 Ángela Milena Ramos. Todos los derechos reservados.",
+  "professionalInfo": "Ángela Milena Ramos | Psicóloga con Enfoque Humanista | Reg. Colpsic",
+  "links": [
+    { "label": "Sobre mí", "href": "#about" },
+    { "label": "Servicios", "href": "#services" },
+    { "label": "Preguntas Frecuentes", "href": "#faq" },
+    { "label": "Contacto", "href": "#contact" }
+  ]
 }
