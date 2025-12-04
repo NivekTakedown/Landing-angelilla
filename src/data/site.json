@@ -4,17 +4,17 @@
   "url": "https://tu-dominio.com",
   "locale": "es_CO",
   "professional": {
-    "name": "Dra. Isabela Rojas",
-    "title": "Psicóloga Clínica y Arteterapeuta",
-    "registrationNumber": "123456",
+    "name": "Ángela Milena Ramos",
+    "title": "Psicóloga - Enfoque Humanista",
+    "registrationNumber": "",
     "registrationOrg": "Colpsic"
   },
   "seo": {
     "homepage": {
-      "title": "Psicóloga y Arteterapia en Bogotá | Mente Serena",
-      "description": "Encuentra paz mental y sanación a través de la arteterapia. Terapia individual y talleres con la psicóloga Isabela Rojas. Transforma tu vida con creatividad.",
-      "keywords": ["psicóloga", "arteterapia", "Bogotá", "terapia individual", "paz mental", "bienestar emocional", "Isabela Rojas"],
-      "ogImage": "/og-image.jpg"
+      "title": "Ángela Milena Ramos - Psicóloga con Enfoque Humanista en Bogotá",
+      "description": "Acompañamiento terapéutico individual y talleres grupales con arte como medio de catarsis. Un espacio seguro para reconecerte contigo mismo en Bogotá, Colombia.",
+      "keywords": ["psicóloga", "terapia humanista", "Bogotá", "terapia individual", "talleres grupales", "arteterapia", "teatro terapéutico", "Ángela Milena Ramos", "acompañamiento emocional"],
+      "ogImage": "/images/picture.jpeg"
     }
   },
   "navigation": [
