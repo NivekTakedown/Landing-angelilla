@@ -1,18 +1,16 @@
-
 {
-  "title": "Da el Primer Paso",
-  "subtitle": "Estoy aquí para escucharte. Contáctame para agendar tu primera sesión y comenzar tu viaje de sanación.",
-  "email": "hola@isabelarojaspsicologa.com",
-  "phone": "+57 300 123 4567",
+  "title": "Contacto",
+  "subtitle": "Estoy aquí para acompañarte. Escríbeme y agendamos una cita.",
+  "email": "angelita.ramos19@gmail.com",
+  "phone": "+57 310 874 90 47",
   "address": {
-    "street": "Cra 7 #71-21, Torre B, Consultorio 505",
-    "city": "Bogotá, Colombia"
+    "street": "Bogotá – Colombia",
+    "city": "Bogotá"
   },
-  "hours": "Lunes a Viernes: 9am - 6pm",
+  "hours": "Lunes a Sábado: 8am - 7pm",
   "socials": [
-    { "name": "Instagram", "href": "#" },
-    { "name": "Facebook", "href": "#" },
-    { "name": "LinkedIn", "href": "#" }
+    { "name": "WhatsApp", "href": "https://wa.me/573108749047" },
+    { "name": "Instagram", "href": "https://instagram.com/enjambreteatro" }
   ],
   "form": {
     "endpoint_url": "",

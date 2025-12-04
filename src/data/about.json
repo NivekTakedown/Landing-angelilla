@@ -1,15 +1,13 @@
-
 {
-  "title": "Hola, soy Isabela Rojas",
-  "subtitle": "Tu guía en el camino hacia el bienestar emocional.",
+  "title": "Hola, soy Ángela Milena Ramos",
+  "subtitle": "Psicóloga con un enfoque humanista",
   "paragraphs": [
-    "Como psicóloga clínica apasionada por el poder transformador de la creatividad, mi misión es ofrecerte un espacio de confianza y empatía donde puedas explorar tu mundo interior. Creo firmemente que cada persona posee los recursos para sanar y crecer, y el arte es una herramienta maravillosa para desbloquear ese potencial.",
-    "Mi enfoque integra técnicas de psicoterapia convencional con la libertad expresiva de la arteterapia. Juntos, crearemos un camino personalizado que no solo aborde tus desafíos, sino que también te conecte con tu capacidad innata de crear, sentir y vivir plenamente."
+    "Te ofrezco un espacio seguro, acogedor y profundamente humano, donde podrás reconectarte contigo mismo y explorar aquello que aún no has podido comprender o expresar. A través del arte como medio de catarsis, te acompaño en un proceso de introspección que te permitirá reconocer tus emociones, entender tus pensamientos y darles un nuevo sentido.",
+    "Un encuentro contigo puede ser el inicio de un proceso transformador."
   ],
   "image": "about-psychologist",
   "stats": [
-    { "value": "10+", "label": "Años de Experiencia" },
-    { "value": "500+", "label": "Vidas Transformadas" },
-    { "value": "Arte", "label": "Como Terapia" }
+    { "value": "7 años", "label": "de experiencia" },
+    { "value": "Arte", "label": "como terapia" }
   ]
 }
