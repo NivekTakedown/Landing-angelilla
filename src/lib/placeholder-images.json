@@ -8,9 +8,9 @@
     },
     {
       "id": "about-psychologist",
-      "description": "A professional and warm portrait of a female psychologist in her office.",
-      "imageUrl": "https://images.unsplash.com/photo-1712174766230-cb7304feaafe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwc3ljaG9sb2dpc3QlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkyNjg0ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional psychologist portrait"
+      "description": "Retrato profesional y cálido de Ángela Milena Ramos.",
+      "imageUrl": "/images/picture.jpeg",
+      "imageHint": "Retrato de la psicóloga Ángela Milena Ramos"
     },
     {
       "id": "service-art-therapy",

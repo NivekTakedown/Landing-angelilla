@@ -1,23 +1,22 @@
-
 {
   "title": "Preguntas Frecuentes",
   "subtitle": "Resolviendo tus dudas para que des el primer paso con confianza.",
   "items": [
     {
-      "question": "¿Necesito tener experiencia en arte para la arteterapia?",
-      "answer": "No, en absoluto. La arteterapia no se enfoca en el resultado estético, sino en el proceso creativo y lo que este te permite expresar y descubrir. No se requiere ninguna habilidad artística previa."
+      "question": "¿Cuánto duran las sesiones y cada cuánto se toman?",
+      "answer": "Las sesiones tienen una duración de una hora. Mi sugerencia es tomarlas semanalmente; sin embargo, estoy abierta a cuadrar la frecuencia según tus necesidades y disponibilidad."
     },
     {
-      "question": "¿Cómo es la primera sesión?",
-      "answer": "La primera sesión es una conversación para conocernos. Hablaremos sobre lo que te trae a terapia, tus expectativas y cómo podemos trabajar juntos. Es un espacio para que te sientas cómodo y resuelvas cualquier duda."
+      "question": "¿Debo llevar algo a la sesión?",
+      "answer": "Siempre sugiero traer algo para anotar lo que vaya resonando contigo y que no quieras olvidar —una bitácora de tu proceso puede ser muy útil."
     },
     {
-      "question": "¿Cuál es la duración y frecuencia de las sesiones?",
-      "answer": "Las sesiones individuales suelen durar 50 minutos y la frecuencia más común es semanal. Sin embargo, esto es flexible y lo adaptaremos a tus necesidades y al proceso terapéutico."
+      "question": "¿Cómo se agenda la sesión?",
+      "answer": "Nos comunicamos vía WhatsApp para definir horarios. La cita se aparta con el 50% del valor de la sesión. Si perteneces a estratos 1 o 2 podemos negociar el valor para facilitar el acceso."
     },
     {
-      "question": "¿Ofreces terapia online?",
-      "answer": "Sí, ofrezco sesiones tanto presenciales en mi consultorio en Bogotá como en modalidad online para tu comodidad y seguridad."
+      "question": "¿Manejas sesiones virtuales?",
+      "answer": "Sí. Actualmente el 90% de mis pacientes son atendidos en modalidad virtual."
     }
   ]
 }
