@@ -1,4 +1,4 @@
-# **App Name**: Mente Serena
+# **App Name**: Ángela Milena Ramos - Psicóloga
 
 ## Core Features:
 
