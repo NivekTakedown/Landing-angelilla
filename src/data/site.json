@@ -20,7 +20,6 @@
   "navigation": [
     { "name": "Sobre mí", "href": "#about" },
     { "name": "Servicios", "href": "#services" },
-    { "name": "Testimonios", "href": "#testimonials" },
     { "name": "FAQ", "href": "#faq" },
     { "name": "Contacto", "href": "#contact" }
   ]
