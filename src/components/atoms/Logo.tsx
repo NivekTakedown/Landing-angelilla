@@ -26,7 +26,7 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         `}
       </style>
       <text x="0" y="20" className="logo-text">
-        Mente Serena
+        Angela Milena Ramos
       </text>
       <path
         className="logo-swash"

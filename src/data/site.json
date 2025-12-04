@@ -1,9 +1,8 @@
-
 {
-  "name": "Mente Serena",
-  "tagline": "Arteterapia y Paz Mental",
-  "url": "https://tudominio.com",
-  "language": "es-CO",
+  "name": "Ángela Milena Ramos - Psicóloga",
+  "description": "Acompañamiento terapéutico individual y talleres grupales con enfoque humanista. Un espacio seguro para reconecerte contigo mismo a través del arte.",
+  "url": "https://tu-dominio.com",
+  "locale": "es_CO",
   "professional": {
     "name": "Dra. Isabela Rojas",
     "title": "Psicóloga Clínica y Arteterapeuta",
